@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "mimir",
+      "camelcase": "Mimir",
+      "scope": "source.mimir",
+      "file-types": [
+        ".mimir"
+      ],
+      "injection-regex": "^mimir$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "AI assistant application",
+    "authors": [
+      {
+        "name": "coco",
+        "email": "enrico.acha@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-mimir"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}

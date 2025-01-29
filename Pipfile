@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sentence-transformers = "*"
+docker = "*"
+filetype = "*"
+uvicorn = "*"
+fastapi = "*"
+pymongo = "*"
+tree-sitter = {ref = "v0.20.3", git = "https://github.com/tree-sitter/py-tree-sitter.git"}
+
+[dev-packages]
+flask = "*"
+fastapi = "*"
+uvicorn = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.11"
